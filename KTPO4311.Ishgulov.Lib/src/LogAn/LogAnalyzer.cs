@@ -37,7 +37,7 @@ namespace KTPO4311.Ishgulov.Lib.src.LogAn
                 {
                     var emailService = EmailServiceFactory.Create();
                     emailService.SendEmail(
-                        "admin@company.com",
+                        "admin@вйвцйвйц.com",
                         "Ошибка анализа файла",
                         $"Ошибка при анализе {fileName}: {ex.Message}"
                     );
